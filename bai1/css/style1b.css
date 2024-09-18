@@ -1,0 +1,51 @@
+.menu {
+  text-decoration: none;
+}
+
+.starter {
+  padding-left: 30px;
+}
+.wrapper {
+  border: 1px solid rgb(235, 93, 93);
+  width: 700px;
+  height: 500px;
+  padding-top: 0;
+  box-shadow: 0px -1px 5px;
+  margin: 0px auto;
+}
+
+.header {
+  text-align: center;
+  font-style: italic;
+  color: rgb(165, 42, 42);
+}
+
+#starter, #dessert {
+  width: 100%;
+  color: rgb(165, 42, 42);
+  background-color: rgb(245, 245, 220);
+}
+
+ins {
+  color: red;
+  font-weight: bold;
+}
+
+.chicken {
+  color: rgb(210, 109, 64);
+  font-weight: bold;
+}
+
+.back-to-top {
+  font-weight: bold;
+  color: red;
+}
+
+.nav {
+  display: flex;
+  width: 700px;
+  height: 50px;
+  background-color: rgb(235, 150, 150);
+  align-items: center;
+  justify-content: space-around;
+}
