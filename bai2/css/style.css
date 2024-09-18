@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 800px;
+  height: auto;
+  border: 2px solid #ddd;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  background-image: url(../Bai2/image/background.png);
+  display: flex;
+  align-items: center;
+}
+
+.header .inner-img {
+  width: 150px;
+  height: 100%;
+}
+
+.header .inner-img img {
+  width: 80%;
+}
+
+.header .inner-title {
+  color: #fff;
+}
+
+.nav {
+  height: 5%;
+  background-color: #AFAEAA;
+  width: 100%;
+}
+
+.nav .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav .list a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.center {
+  width: 100%;
+  height: 75%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.inner-left {
+  width: 35%;
+  height: 100%;
+}
+
+.inner-left .inner-img {
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 100%;
+
+}
+
+.inner-left .inner-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-left .inner-img h3 {
+  color: #696363;
+}
+.inner-center{
+  position: absolute;
+  top: 0;
+  left: 35%;
+  height: 100%;
+  width: 35%;
+  padding: 20px;
+}
+.inner-center .inner-content{
+  margin-bottom: 55%;
+}
+.inner-center .inner-content .inner-title{
+  margin-bottom: 20px;
+}
+.inner-center .inner-content p{
+  font-size: 14px;
+  color: #9D9A95;
+}
+.inner-center .inner-content .inner-title h2{
+  color: #9D9A95;
+}
+.inner-center .inner-content .inner-title h3{
+  font-size: 16px;
+  color: rgb(200, 37, 37);
+}
+.inner-right{
+  position: absolute;
+  top: 0;
+  left: 70%;
+  height: 100%;
+  width: 30%;
+  border-left: 2px solid #ddd;
+  padding: 30px;
+}
+.inner-right .popular{
+  color: rgb(200, 37, 37);
+}
+.inner-right .popular h3{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.inner-right .popular h2{
+  margin-bottom: 20px;
+}
+.inner-right .inner-contact{
+  padding: 30px;
+}
+.inner-right h2{
+  margin-bottom: 20px;
+  color: rgb(200, 37, 37);
+}
+.inner-right p{
+  color: #9D9A95;
+}
+.footer{
+  height: 50px;
+  background-color: #B0AFAB;
+}
